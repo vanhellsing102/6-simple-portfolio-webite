@@ -1,0 +1,150 @@
+@media screen and (max-width: 576px) {
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav h3
+    {
+        margin: 0px;
+        padding: 10px 20px;
+    }
+    nav ul
+    {
+        margin: 0px;
+    }
+    .btn-download
+    {
+        margin-bottom: 10px;
+    }
+    .about-section
+    {
+        margin: 0px;
+        padding: 20px;
+    }
+    .about-footer
+    {
+        flex-direction: column;
+    }
+    .what-section
+    {
+        margin: 20px;
+    }
+    .what-details-card
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-card
+    {
+        width: 100%;
+    }
+    .resume
+    {
+        margin: 50px 20px 50px 20px;
+    }
+    .total-resume
+    {
+        flex-direction: column;
+        display: flex;
+    }
+    .main-footer
+    {
+        flex-direction: column;
+        margin: 0px 0px;
+    }
+    .connect-section, .message-section
+    {
+        padding: 20px 30px;
+    }
+    .banner
+    {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    header
+    {
+        background-image: none;
+    }
+    .banner-image img
+    {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav h3
+    {
+        margin: 0px;
+        padding: 10px 20px;
+    }
+    nav ul
+    {
+        margin: 0px;
+    }
+    .btn-download
+    {
+        margin-bottom: 10px;
+    }
+    .about-section
+    {
+        margin: 0px;
+        padding: 20px;
+    }
+    .about-footer
+    {
+        flex-direction: column;
+    }
+    .what-section
+    {
+        margin: 20px;
+    }
+    .what-details-card
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+    .main-card
+    {
+        width: 100%;
+    }
+    .resume
+    {
+        margin: 50px 20px 50px 20px;
+    }
+    .total-resume
+    {
+        flex-direction: column;
+        display: flex;
+    }
+    .main-footer
+    {
+        flex-direction: column;
+        margin: 0px 0px;
+    }
+    .connect-section, .message-section
+    {
+        padding: 20px 30px;
+    }
+    .banner
+    {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    header
+    {
+        background-image: none;
+    }
+    .banner-image img
+    {
+        width: 100%;
+    }
+}
